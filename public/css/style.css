@@ -317,12 +317,12 @@ select {
 
 .teste {
 
-  background-image: url("bgcodinggif.gif");
+  background-image: url("../img/bgcodinggif.gif");
   /* The image used */
 
 
   /* Add the blur effect */
-  filter: url("bgcodinggif.gif");
+  filter: url("../img/bgcodinggif.gif");
   filter: blur(5px);
   -webkit-filter: blur(6px);
 
