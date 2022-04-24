@@ -5,43 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./public/css/style.css">
-  <title>Home</title>
+  <title>Adicionar Curso</title>
 </head>
 <body class="body" id="body">
   <header class="header">
     <a href="/">Find Stack</a>
     <nav>
       <ul class="menu">
-        <li><a href="adicionar.html">Adcione seu curso</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="desenvolvedores.html">Conheça os devs</a></li>
-      </ul> 
+      </ul>
     </nav>
   </header>
-  <section class="layout-separador" id="layout-separador">
-
-    <div class="preco">
-      <label>Preço</label>
-      <select id="opt-preco">
-        <option value="Pago">Pago</option>
-        <option value="Gratuito">Gratuito</option>
-      </select>
-
-    </div>
-    <div class="modalidade">
+  <section class="layout-separador-add" id="layout-separador-add">
+    <div class="modalidade-add">
       <label>Modalidade</label>
-      <select id="opt-modalidade">
+      <select id="opt-modalidade-add">
         <label>Modalidade</label>
         <option value="Back-end">Back-end</option>
         <option value="Front-end">Front-end</option>
         <option value="Banco de dados">Banco de dados</option>
       </select>
     </div>
-      <div class="buscar">
-        <button type="submit" onclick="buscar()" class="buscar-button">Buscar</button>
-      </div>
-      </section>
-      <section class="busca" id="busca">
-      </section>
+    <div class="link-add">
+      <label>Link</label>
+      <input type="text" id="link"/>
+    </div>  
+
+    <div class="preco-add">
+      <label>Preço</label>
+      <input type="number" id="preco"/>
+    </div>
+
+    <div class="avaliacao-add">
+      <label>Avaliação (de 1 a 5)</label>
+      <input type="number" id="avaliacao"/>
+    </div>
+
+    <div class="buscar">
+      <button type="submit" onclick="adicionar()" class="adicionar">Adicionar</button>
+    </div>
+  </section>
   <footer>
     <ul class="footer">
       <li><a href="/">Acesso à informação</a></li>
