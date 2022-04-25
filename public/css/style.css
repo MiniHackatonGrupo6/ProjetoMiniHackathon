@@ -1,0 +1,279 @@
+/* @autor Tuany Brito */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.header {
+  background: #97E4EE;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header a {
+  padding: 10px;
+  background: rgba(151, 212, 238, 0.5);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50px; 
+}
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  background: rgba(151, 212, 238, 0.5);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50px; 
+
+}
+
+.busca{
+    background: rgba(151, 228, 238, 0.5);
+    margin: 85px;
+    border-radius: 20px;
+    padding: 30px;
+    display: block; 
+}
+
+
+.adicionar {
+  color:#97E4EE;
+  background: #FFFFFF;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+}
+
+table {
+  border-collapse: separate;
+  margin-left: 20%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+table, td {
+  border: 1px solid #FFFFFF;
+  /* cellpadding: 10px; */
+  border-radius: 30px;
+  padding: 5px;
+}
+/* . {
+  background: rgba(151, 212, 238, 0.5);
+} */
+
+.table-busca-dados {
+  
+  background: #FFFFFF;
+  color: gray;
+}
+
+
+.combo {
+  display: flex;
+  text-align: center;
+}
+
+.star {
+  
+ /* color: yellow; */
+ color: #FDE16D;
+}
+
+footer {
+  background: #97E4EE;
+  width: 100%;
+  margin-top:100%;
+}
+
+.footer {
+  display: flex;
+  padding: 10px;
+}
+
+.footer li {
+  margin-left: 20px;
+}
+
+.footer li a{
+  display: block; 
+}
+
+.layout-separador-add {
+  background: #97E4EE
+  ;
+  margin: 85px;
+  border-radius: 20px;
+  padding: 80px;
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.layout-separador { 
+    background: rgba(151, 228, 238, 0.5);
+    margin: 85px;
+    border-radius: 20px;
+    padding: 80px;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+select {
+  border-radius: 50px; 
+  margin-top: 10px;
+  text-align: center;  
+  
+}
+label {
+  color: #FFFFFF;
+}
+.link-add {
+  text-align: center;
+  border-radius: 30px;
+  margin: 5px;
+  color: #FFFFFF;
+  background: #97E4EE;
+}
+
+.avaliacao-add {
+  text-align: center;
+  border-radius: 30px;
+  margin: 5px;
+  color: #FFFFFF;
+  background: #97E4EE;
+  width: 35%;
+  height: 40px;
+}
+
+
+.preco-add {
+  text-align: center;
+  border-radius: 30px;
+  margin: 5px;
+  color: #FFFFFF;
+  background: #97E4EE;
+}
+
+.modalidade-add{
+  text-align:center;
+  border-radius: 30px;
+  margin: 5px;
+  color: #FFFFFF;
+  background: #97E4EE;
+}
+
+.preco {
+  text-align: center;
+  border-radius: 30px;
+  margin: 5px;
+  color: #FFFFFF;
+  width: 35%;
+  height: 40px;
+  background: #97E4EE;
+}
+
+.modalidade {
+  text-align:center;
+  border-radius: 30px;
+  margin: 5px;
+  width: 35%;
+  height: 40px;
+  color: #FFFFFF;
+  background: #97E4EE;
+
+}
+
+
+
+.buscar-button{
+  color:#97E4EE;
+  background: #FFFFFF;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+}
+
+.busca {
+  margin-top: 30px;
+  color:grey;
+}
+
+.div-li-perfil{
+  width: 30%;
+}
+
+.img-pessoa{
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+}
+
+.img-icon{
+  width: 50%;
+  height: 20%;
+  background-color: none;
+}
+
+
+h1{
+  font-size: 2.7em;
+  margin-left:4em;
+}
+
+h2{
+  font-size: 1.3em;
+  border-radius: 0 0 0 10px;
+  margin-left:6em;
+  margin-right: 1em;
+  margin-top: .5em;
+}
+
+.div-li-texto{
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  background: #97E4EE;
+  position: relative;
+  margin-top:50px;
+}
+
+.div-li-img li{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  display: inline-block;
+  width: 15%;
+}
+
+.div-li-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:3em;
+}
+
+h1, h2 {
+  color: gray
+}
